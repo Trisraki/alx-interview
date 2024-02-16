@@ -4,8 +4,7 @@
 
 def validUTF8(data):
     """
-        Does not check for canonicalization (i.e. overlong encodings
-        are acceptable) & Checks that a sequence of byte values follows the UTF-8 encoding
+        A sequence of byte values follows the UTF-8 encoding
         rules.
         """
 
@@ -22,7 +21,7 @@ def validUTF8(data):
 
 
 def _count_leading_ones(byte):
-    """counts_leading_ones."""
+    """Counts leading ones."""
 
     for i in range(8):
         if byte >> 7 - i == 0b11111111 >> 7 - i & ~1:
