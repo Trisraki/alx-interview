@@ -24,7 +24,7 @@ The solution to the Lockboxes problem typically involves using breadth-first sea
 ## Usage
 To use the Lockboxes solution provided in this repository:
 1. Clone this repository to your local machine:
-        git clone https://github.com/Don-Cod/alx-interview.git
+        git clone https://github.com/tris-raki/alx-interview.git
 2. Navigate to the `0x01-lockboxes` directory:
         cd alx-interview/0x01-lockboxes
 3. Run the Python script:
